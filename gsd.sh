@@ -15,5 +15,6 @@ case "$1" in
   sed -i "s/^ /#/" /etc/hosts
 ;;
 *)
-  echo 'Usage: $0 ( (add | remove) some.fqdn | (on | off) ) 
+  echo 'Usage: $0 ( (add | remove) some.fqdn | (on | off) )'
+;;
 esac
